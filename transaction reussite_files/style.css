@@ -1,0 +1,188 @@
+@media screen and (max-width: 480px) {
+    .banner-slogan {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .header .logo-text {margin: 0;}
+}
+
+
+@font-face { 
+    font-family: Roboto Condensed; 
+    src: url('../font/RobotoCondensed-Regular.ttf'); 
+}
+
+@font-face { 
+    font-family: Roboto Condensed bold;
+    font-weight: bold; 
+    src: url('../font/RobotoCondensed-Bold.ttf');
+}
+
+body {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: transparent;
+    opacity: 1
+}
+
+
+.bg-site {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    opacity: .3;
+    height: 100%;
+}
+
+
+.header { margin-top: 10px; }
+.header img {
+    margin: 0 auto;
+    display: block;
+}
+.header .logo-text {
+    font-size: 35px;
+    font-family: 'Roboto Condensed bold', sans-serif;
+    color: #008BCF;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.banner {
+    border: 1px solid #eaeaea;
+    margin-top: 15px;
+    position: relative;
+}
+
+.banner-slogan {
+    position: absolute;
+    top: 25%;
+    padding-left: 20px;
+    width: 80%;
+    font-size: 2.5vw;
+    /*color: cornflowerblue;*/
+    color: orange;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.section-1 .slogan {
+    padding-left: 30px;
+    font-size: 2em;
+
+    color: #303030;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+.section-1 .slogan-1 {
+    padding-right: 30px;
+    font-family: 'Roboto Condensed bold', sans-serif;
+    font-size: 1.8em;
+    color: #303030;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.section-2 { margin-top: 20px; }
+.img-main {
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    /*position: absolute;*/
+    top: 0;
+    width: auto;
+}
+
+.description {
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #bababa;
+}
+.description img { 	margin-right:10px; }
+.description .text { font-size: 24px;}
+.description .text-1 { font-size: 24px;padding-left: 30px;}
+
+/*.send-btn-holder { margin-top: 30px; }*/
+a.send-btn-holder {
+    width: 100%;
+    text-transform: uppercase;
+    transition-duration:0.3s;
+}
+.send-btn-holder a:hover{ transform: translateY(5px); }
+
+/*.footer {
+        padding: 15px;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background-color: red;
+}
+*/
+.form-holder {
+    margin-top: 15px;
+    padding: 15px;
+    border : 1px solid #E6E4E4;
+    border-radius: 3px;
+    /*background-color: whitesmoke;*/
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.full-bg {
+    background: url("../img/bg3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*opacity: .2;*/
+}
+.full-bg-index {
+    background: url("../img/bg3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    /*background-color: rgba(255,255,255,0.5);*/
+    background-color: rgba(255,255,255,0.0);
+}
+
+/**************************************************************/
+
+.facture-page .control-label{
+    font-size: 18px;
+}
+.facture-page .control-label-1{
+    font-size: 20px;
+    padding-top: 2px;
+    margin-bottom: 0;
+    text-align: left;;
+}
+.facture-page .field-info {
+    font-size: 11px; 
+    color: gray;
+}
+
+.footer a, .footer p {font-size: 11px;}
+
+.icon-blue { color: #269abc; }
+
+@media screen and (max-width: 800px) {
+    .header .sub {display: block; float: none;}
+    .section-1 .slogan { font-size: 2.5em; }
+}
+
+@media screen and (max-width: 400px) {
+    .section-1 .slogan { font-size: 2em; }
+}
